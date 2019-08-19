@@ -22,6 +22,7 @@ Auth::routes();
 Route::get('/', 'MainController@home')->name('main.home');
 
 Route::resource('products', 'ProductController');
+
 /*
 GET /products => index
 POST /products => create

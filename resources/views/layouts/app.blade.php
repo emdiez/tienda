@@ -79,10 +79,10 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        {{-- <main class="py-4"> --}}
+        <main class="py-0">
             @yield('content')
         </main>
     </div>
 </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Ripple.js/1.2.1/ripple.min.js" integrity="sha256-z31A8VHBfTuMzaDqw6xjoxybkBnMJv3rDddZ/RCURz0=" crossorigin="anonymous"></script>
 </html>

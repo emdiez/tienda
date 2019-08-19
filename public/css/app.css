@@ -1,6 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 
+.big-padding {
+	padding: 15px;
+}
 
+.blue-gray {
+	background-color: #37474F;
+}
+
+.white-text {
+	color: white;
+}
+
+.table {
+	background-color: white: 
+}
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
