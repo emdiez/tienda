@@ -15,7 +15,20 @@
 //     return view('welcome');
 // });
 
+// Route::get('/home', 'HomeController@index')->name('home');
+
 Auth::routes();
 
 Route::get('/', 'MainController@home')->name('main.home');
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('products', 'ProductController');
+/*
+GET /products => index
+POST /products => create
+GET /products/create => formulario para crear
+
+GET /products/:id => mostrar un produdcto con id
+GET /products/:id/edit => formulario para editar 
+PUT/PATCH/ /products/:id => actualizar registro
+DELETE /products/:id => eliminar
+*/
